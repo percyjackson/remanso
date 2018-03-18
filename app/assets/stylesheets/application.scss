@@ -11,5 +11,16 @@
  * It is generally better to create a new file per style scope.
  *
  */
+@import "welcome.css";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// * {
+// 	margin: 0;
+// 	padding: 0;
+// }
+
+// body {
+// 	background: skyblue;
+// }
+
