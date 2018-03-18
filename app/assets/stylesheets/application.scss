@@ -15,12 +15,76 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// * {
-// 	margin: 0;
-// 	padding: 0;
-// }
+html, body {
+    height: 100%;
+    width: 100%;
+}
 
-// body {
-// 	background: skyblue;
-// }
+.navbar {
+    background-color: #431F0EFF;
+    padding: 0;
+    font-size: 1em;
+}
+
+.navbar-brand {
+    padding: 0 50px 5px;
+}
+
+.navbar-defautl .navbar-nav li a {
+    color: #D5D5D5;
+}
+
+.navbar-defautl .navbar-nav li a:hover, .navbar-defautl .navbar-nav li a.active{
+    color: #FFF;
+}
+
+#project {
+    background-color: white;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.project-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.padding {
+    padding: 80px 0;
+}
+
+.padding img {
+    
+}
+
+#contact {
+    background: url('/assets/Recortes/Remanso-40.png') no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    background: url('/assets/Recortes/Remanso-36.png') no-repeat center center;
+    width: 100%;
+    padding: 5px 10px 10px 10px;
+    color: #431F0EFF;
+}
+
+.footer-terms {
+    padding: 0 100px;
+}
+
+.footer-image {
+    height: 50px;
+}
+.footer-powered {
+    height: 40px;
+}
 
