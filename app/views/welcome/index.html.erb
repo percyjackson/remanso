@@ -1,3 +1,26 @@
+<!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">-->
+<!--    <div class="container-fluid">-->
+<!--        <div class="navbar-header">-->
+<!--            <button class="collapsed navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-main"> -->
+<!--                <span class="sr-only">Toggle navigation</span> -->
+<!--                <span class="icon-bar"></span> -->
+<!--                <span class="icon-bar"></span> -->
+<!--                <span class="icon-bar"></span> -->
+<!--            </button>-->
+<!--            <a class="navbar-brand" href=""><img src="assets/Recortes/Remanso-05.png" class="logo"></img></a>-->
+<!--        </div>-->
+<!--        <div class="collapse navbar-collapse" id="navbar-collapse-main">-->
+<!--            <ul class="nav navbar-nav navbar-center">-->
+<!--                <li><a class="active" href="#project">Proyecto</a></li>-->
+<!--        		<li><a href="#gallery">Galería</a></li>-->
+<!--        		<li><a href="#apartments">Apartamentos</a></li>-->
+<!--        		<li><a href="#map">Mapa</a></li>-->
+<!--        		<li><a href="#contact">Contacto</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</nav>-->
+
 <nav class="navbar navbar-defautl navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -11,15 +34,11 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar-collapse-main">
             <ul class="nav navbar-nav navbar-center">
-                <li><a class="active" href="#">Proyecto</a></li>
-        		<!--<span>|</span>-->
-        		<li><a href="#">Galería</a></li>
-        		<!--<span>|</span>-->
-        		<li><a href="#">Apartamentos</a></li>
-        		<!--<span>|</span>-->
-        		<li><a href="#">Mapa</a></li>
-        		<!--<span>|</span>-->
-        		<li><a href="#">Contacto</a></li>
+                <li><a class="active" href="#project">Proyecto</a></li>
+        		<li><a href="#gallery">Galería</a></li>
+        		<li><a href="#apartmenst">Apartamentos</a></li>
+        		<li><a href="#map">Mapa</a></li>
+        		<li><a href="#contact">Contacto</a></li>
             </ul>
         </div>
     </div>
@@ -45,7 +64,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-sm-6 rounded float-right">
+                <div class="col-sm-6 float-right">
                     <img src="assets/Recortes/Remanso-10.png">
     			    <img src="assets/Recortes/Remanso-11.png">
                 </div>
@@ -199,36 +218,39 @@
 <section id="contact">
 	<div id="fixed">
 	    <div class="container-fluid">
-	        <div class="row text-center row-contact">
-	            <div class="col-md-6">
-	                <img src="assets/Recortes/Remanso-07.png" border="0" class="img-bono">
-	            </div>
-	            <div class="col-md-6">
-	                <form id="responsiveForm" action="">
-                        <div class="form-group">
-                          <input required="required" type="text" class="form-control" placeholder="Nombre*" name="name" id="name">
-                        </div>
-                        <div class="form-group">
-                          <input required="required" type="text" class="form-control" placeholder="Correo Electrónico*" name="email" id="email">
-                        </div>
-                        <div class="form-group">
-                          <input required="required" type="text" class="form-control" placeholder="Teléfono*" name="phone" id="phone">
-                        </div>
-                        <div class="form-group">
-                          <input required="required" type="text" class="form-control" placeholder="Ciudad*" name="city" id="city">
-                        </div>
-                        <div class="form-group">
-                            <textarea required="required" class="form-control" rows="2" id="comment" placeholder="Comentario*" name="comment"></textarea>
-                        </div>
-                        <div class="contact-terms">
-                            Al hacer clic en ENVIAR, estás aceptando los <strong>términos y condiciones</strong>
-                        </div>
-                        <div class="form-group">
-                          <input type="submit" name="submit" class="btn-enviar" value="ENVIAR"/>
-                        </div>
-                    </form>
-	            </div>
+	        <div class="contact-container">
+	            <div class="row center-block row-contact">
+    	            <div class="col-md-6">
+    	                <img src="assets/Recortes/Remanso-07.png" border="0" class="img-bono img-responsive pull-right">
+    	            </div>
+    	            <div class="col-md-6">
+    	                <form id="responsiveForm" action="">
+                            <div class="form-group">
+                              <input required="required" type="text" class="form-control" placeholder="Nombre*" name="name" id="name">
+                            </div>
+                            <div class="form-group">
+                              <input required="required" type="text" class="form-control" placeholder="Correo Electrónico*" name="email" id="email">
+                            </div>
+                            <div class="form-group">
+                              <input required="required" type="text" class="form-control" placeholder="Teléfono*" name="phone" id="phone">
+                            </div>
+                            <div class="form-group">
+                              <input required="required" type="text" class="form-control" placeholder="Ciudad*" name="city" id="city">
+                            </div>
+                            <div class="form-group">
+                                <textarea required="required" class="form-control" rows="2" id="comment" placeholder="Comentario*" name="comment"></textarea>
+                            </div>
+                            <div class="contact-terms">
+                                Al hacer clic en ENVIAR, estás aceptando los <strong>términos y condiciones</strong>
+                            </div>
+                            <div class="form-group">
+                              <input type="submit" name="submit" class="btn-enviar" value="ENVIAR"/>
+                            </div>
+                        </form>
+    	            </div>
+    	        </div>
 	        </div>
+	        
 	    </div>
 	</div>
 </section>

@@ -34,9 +34,13 @@ html, body {
     height: 110px;
 }
 
-.navbar-defautl .navbar-nav li a {
+
+
+.navbar-defautl .navbar-nav  li a {
     color: #D5D5D5;
 }
+
+
 
 .navbar-defautl .navbar-nav li a:hover, .navbar-defautl .navbar-nav li a.active{
     color: #FFF;
@@ -86,18 +90,18 @@ html, body {
     background-size: cover;
 }
 
-// .img-bono {
-//     display: block;
-// }
-// .img-bono {
-//     display: block;
+// .contact-container {
+//     float: none;
+//     margin: 0 auto;
+//     vertical-align: middle;
 // }
 
-// .row-contact {
-//     display: block;
-//     margin-left: auto;
-//     margin-right: auto;
-// }
+
+.row-contact > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
 
 #responsiveForm{
   background-image: url('/assets/Recortes/Remanso-08.png');
